@@ -1,4 +1,4 @@
-FROM node:14.15.4-buster
+FROM node:15.9.0-buster
 
 # install some dependencis
 RUN apt update && apt install -y unzip git curl python2
